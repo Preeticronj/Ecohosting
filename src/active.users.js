@@ -89,9 +89,7 @@ class App extends React.Component {
                     <Table responsive>
                         <TableHead>
                             <TableRow>
-                                <CustomTableCell>ACTION</CustomTableCell>
-                                <CustomTableCell>APPROVE USER</CustomTableCell>
-                                <CustomTableCell>LATEST LOGIN</CustomTableCell>
+                               
                                 <CustomTableCell>LAST NAME</CustomTableCell>
                                 <CustomTableCell>FIRST NAME</CustomTableCell>
                                 <CustomTableCell>TITLE</CustomTableCell>
