@@ -27,9 +27,7 @@ class App extends React.Component {
                         addUser={this.props.addUser}
                         is_edit={this.props.is_edit}
                         add_user = {this.props.add_user}
-                        // user={this.props.user}
-                        // updateUser={this.props.updateUser}
-                        // isUserExist={this.props.isUserExist}
+                       
                         />
                     <a href="javascript:void(0);" onClick={() => this.props.closeModal()}></a>
                    
