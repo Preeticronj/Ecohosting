@@ -32,24 +32,30 @@ class FooterBar extends React.Component {
                         <div className="rightUpper-footer">
                             <div className="right-footer1">
                                 <img className="icon" src={FireWallImage} alt="internetUser.png" height="55px" width="55px"></img>
-                                <h3 style={{paddingLeft:'23px'}}>FireWall</h3>
+                           <Link to ="/firewall" ><h3 style={{paddingLeft:'23px'}}>FireWall</h3></Link>
                                 <span>Loreum ipsum  dolor sit amet consecutetur adipiscing</span>
                             </div>
                             <div className="right-footer1">
                                 <img className="icon" src={DataEncrypt} alt="dataEncrypt.jpg" height="55px" width="55px"></img>
+                                <Link to ="/dataEncrypt">
                                 <h3>DataEncryption</h3>
+                                </Link>
                                 <span>Loreum ipsum  dolor sit amet consecutetur adipiscing</span>
                             </div>
                             <div className="right-footer1">
                                 <img className="icon" src={DataAnalysis} alt="data_analysis.jpg" height="55px" width="55px"></img>
-                             <Link to ="/dasboard"> <h3>DataAnalysis</h3></Link>
+                             <Link to ="/dasboard"> 
+                             <h3>DataAnalysis</h3>
+                             </Link>
                                 <span>Loreum ipsum  dolor sit amet consecutetur adipiscing</span>
                             </div>
                         </div>
                         <div className="rightDown-footer">
                         <div className="rightdown-footer">
                                 <img className="icon" src={DataProtection} alt="data-privacy-policy.jpg" height="55px" width="55px"></img>
+                                <Link to ="dataProtection">
                                 <h3>DataProtection</h3>
+                                </Link>
                                 <span>Loreum ipsum  dolor sit amet consecutetur adipiscing</span>
                             </div>
                             <div className="rightdown-footer">
@@ -61,7 +67,7 @@ class FooterBar extends React.Component {
                             </div>
                             <div className="rightdown-footer">
                                 <img className="icon" src={TechnicalService} alt="Technicalservice.jpg" height="55px" width="55px"></img>
-                                <h3>TechnicalService</h3>
+                              <Link to ="/TechnicalService" > <h3>TechnicalService</h3></Link>
                                 <span>Loreum ipsum  dolor sit amet consecutetur adipiscing</span>
                             </div>
                         </div>

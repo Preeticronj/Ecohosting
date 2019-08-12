@@ -3,19 +3,18 @@ import './atom.css'
 
 import PieChart from 'react-minimal-pie-chart';
 // const data = [
-//     { title: "No data", value: 20, color: "silver" },
-//     { title: "Data 2", value: 5, color: "yellow" },
+//     { title: "No data", value: 182, color: "Maroon" },
+//     { title: "Data 2", value: 2, color: "yellow" },
 
 // ]
 
-class Piechart1 extends React.Component {
+class Piechart2 extends React.Component {
     constructor() {
         super()
     }
 
     render() {
-        console.log("data",this.props.data)
-        console.log('productdeployment---->', this.props.productdeployment)
+        console.log('productdeployment---->', this.props.data1)
         return (
             <div className="pie-box">
                 <div className="box-header">
@@ -25,33 +24,49 @@ class Piechart1 extends React.Component {
                     <div className="vl3">
                     </div>
                     <div className="left-box">
-                        <p style={{ marginTop: '4px' }}>Product deployment in 24 hours</p>
+                        <p style={{ marginTop: '4px' }}>Product Updates in  last24 hours</p>
                     </div>
                 </div>
                 <div className="piechart">
                     <div style={{ height: '17%', width: '46%' }}>
                         <PieChart
-                            data={this.props.data}
+                            data={this.props.data1}
                             lengthAngle={360}
                             cx={50}
                             cy={50}
+                            startAngle={0}
+                            // paddingAngle={1}
+                            lineWidth={100}
                             //   totalValue={2}
                             viewBox={35}
                         />
                     </div>
                     <div className="vl4">
-                        <table id="customers">
+                        <table id="customers1">
                             <tr>
                                 <th></th>
                                 <th>Number of Client...</th>
                             </tr>
                             {/* <tr> */}
                           
-                                {this.props.productdeployment.map((item, index) => {
-                                    return <tr>
-                                     <td>Total</td>
-                                      <td>{item.total}</td>
-                                    </tr>
+                                {this.props.data1.map((item, index) => {
+                                    return (
+                                        <tr>
+
+                                        <tr>
+                                        {/* <td>successfulUpdate</td> */}
+                                     <td>{item.value}</td>
+
+                                   
+                                     </tr>
+                                     {/* <tr>
+                                     <td>failedUpdate</td>
+                                      <td>{item.value}</td>
+                                      </tr> */}
+                                     
+                                      </tr>
+                                       
+                                    )
                                 })
                                 }
                             
@@ -66,5 +81,4 @@ class Piechart1 extends React.Component {
     }
 
 }
-export default Piechart1;
-
+export default Piechart2;

@@ -248,8 +248,8 @@ input[type="text3"] {
   color: white;
 }
 .client {
-  padding-top: 22px;
-  font-size: x-large;
+  padding: 29px 12px;
+  font-size: 20px;
   color: white;
   background-color: black;
   margin-left: 262px;
@@ -417,6 +417,29 @@ input[type="text3"] {
 .right-footer{
     display: 'block'
 }
+.pie-box{
+ 
+    width: 265px;
+    border: 5px solid grey;
+    padding: 50px;
+    /* margin: 20px; */
+    height: 177px;
+
+}
+.box-header {
+  display: flex;
+  height: 34px;
+  width: 365px;
+  padding-left: -30px;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.arrow {
+  height: 28px;
+  background-color: silver;
+  width: 11px;
+  font-size: 18px;
+}
 
 @media only screen and (max-width: 1024px) {
   .sub-container {
@@ -541,6 +564,73 @@ input[type="text3"] {
     padding-top: 9px;
 
 }
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color:transparent;
+  margin-left: 10px;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 24px 12px;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.main-footer{
+  background-color: white;
+    margin-top: -20px;
+}
+.right-footer{
+  margin-right:118px
+}
+
+.dot-selected{
+
+  background-color:black;
+}
+/* .horizontal .slider .slide {
+  flex-direction: column;
+  flex-flow: column;
+  height: 1300px;
+} */
+
+/* .carousel .slider-wrapper.axis-horizontal .slider .slide {
+  flex-direction: column;
+  flex-flow: column;
+  height: 796px;
+} */
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
   .dot1 {

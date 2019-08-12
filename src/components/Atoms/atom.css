@@ -1,14 +1,422 @@
+
 .box{
-background-color: white;
+     
+    background-color: white;
     width: 349px;
     border: 5px solid;
     padding: 15px;
     margin: 20px;
     height: 314px;
+    display: flex;
 }
-.box-header{
-    width:349px;
-    height:15px;
-    background-color: gray
+
+
+
+ .left-box {
+    width: 349px;
+    height: 28px;
+    background-color:silver;
+    text-align: center;
+    }
+
+   .box-header{
+    display: flex;
+    height: 34px;
     
 }
+
+    .arrow {
+        height: 28px;
+        background-color: silver;
+        width: 21px;
+        font-size: 18px;
+    }
+
+    .vl3{
+        border-left: 1px solid black;
+        height: 27px;
+
+    }
+    .vl5{
+      border-left: 1px solid grey;
+      height: 2px;
+      padding-left: 8px;
+    }
+    .chart-container{
+        display:flex
+    }
+
+    .vl4{
+            border-left: 1px solid black;
+            height: 256px;
+            margin-left: 126px;
+            margin-top: -135px;
+    
+    }
+
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 187px;
+      }
+      #customers tr:nth-child(even){background-color:silver;}
+
+      #customers th {
+        padding-top: 5px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:silver;
+        
+      }
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      .customers1{
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 18px;
+      }
+      #customers1 tr:nth-child(even){background-color:silver;}
+      
+      #customers1 th {
+        padding-top: 5px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:silver;
+        
+      }
+      #customers1 td, #customers1 th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      input[type="text5"] {
+        width: 239px;
+        height: 15px;
+        margin-top: 51px;
+        /* padding-left: 22px; */
+        background-color: white;
+        border: 2px solid #ccc;
+        margin-left:51px;
+      }
+
+      .btn-go{
+        padding-left: 257px;
+        padding-top: 10px;
+      }
+
+      .search-footer{
+
+        padding-top: -5px;
+        width: 365px;
+        height: 124px;
+        background-color: silver;
+        margin-left: -50px;
+        margin-top: 16px;
+      }
+     .pie-box1{
+      
+            width: 265px;
+            border: 5px solid grey;
+            padding: 50px;
+            /* margin: 20px; */
+            height: 254px;
+      }
+
+      .barchart{
+          background-color: red;
+      }
+
+      .pie-box2{
+        width: 300px;
+        border: 5px solid black;
+        padding: 50px;
+         height:637px;
+
+      }
+
+      .border-box1{
+        border: 2px solid black;
+        width: 396px;
+        /* padding-left: 45px; */
+        height: 115px;
+        margin-left: -50px;
+        background-color: lightgreen;
+        text-align: center;
+        font-size: medium;
+
+      }
+
+      .border-box2{
+
+        border: 2px solid black;
+        width: 396px;
+        height: 115px;
+        margin-left: -50px;
+        background-color: coral;
+        text-align: center;
+        font-size: medium;
+      }
+
+      .border-box3{
+        border: 2px solid black;
+        width: 396px;
+        height: 115px;
+        margin-left: -50px;
+        background-color: tomato;
+        text-align: center;
+        font-size: medium;
+      }
+       
+      .pie-box3{
+
+        width: 300px;
+        border: 5px solid black;
+        padding: 50px;
+        height:637px;
+        margin-left: 13px;
+         
+      }
+
+
+      .top-box{
+        /* border-radius: 25px; */
+        width:200px;
+        border:1px solid salmon;
+        height:80px;
+        background-color:orangered;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        height: 90px;
+        margin-left: 162px;
+        margin-top: 26px;
+        display: flex;
+        border-radius: 16px;
+       
+      }
+
+      .list-box{
+           border-radius: 25px;
+           border: 2px solid orangered;
+           padding: 20px; 
+           width: 151px;
+           height: 305px;
+          margin-left: 162px;
+          margin-top: -96px;
+      }
+      .top-img{
+        
+          height: 66px;
+          width: 110px;
+          /* padding-left: 175px; */
+          /* padding-top: 78px; */
+          border: 1px solid peru;
+          margin-left: 184px;
+          margin-top: 49px;
+      }
+
+    
+        /* Add shadows to create the "card" effect */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          height: 432px;
+          /* padding-left: 99px; */
+          width: 543px;
+          margin-left: 162px;
+          margin-top: 80px;
+      }
+    
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .card-top{
+        padding: 7px 16px;
+        background-color: peru;
+        text-align: center;
+        display: flex;
+
+      }
+     .list{
+      margin: 0 0 3px 0;
+     }
+
+
+      .menu-container{
+        background-color: lightgrey;
+        width: 543px;
+        height: 581px;
+      }
+
+
+      .top-menu{
+        padding: 15px 16px;
+        background-color: antiquewhite;
+        padding:5px;
+        border:1px solid grey
+      }
+      .config-box{
+        display:flex;
+      }
+      .leftConfig-box{
+        display: block;
+
+      }
+     
+      .rightConfig-box{
+        display: flex;
+      }
+      .enabled{
+        padding-top:21px;
+        padding-left: 10px;
+      } 
+      .enabled-content{
+        font-size: 27px;
+        color: green;
+    }
+
+    .button{
+      background-color: white;
+      border: none;
+      color: white;
+      padding: 13px 38px;
+      cursor: pointer;
+      margin-left: 4px;
+  }
+    
+  .card-down{
+    padding: 7px 16px;
+    background-color:silver;
+    height:10px;
+    width: 476px;
+    margin-left: 15px
+
+  }
+  .empty-card{
+    padding:7px 16px;
+    width:476px;
+    background-color:white ;
+    height:158px;
+    margin-left:15px;
+    margin-right:15px;
+  }
+  .menu-container {
+    background-color: lightgrey;
+    width: 543px;
+    height: 623px;
+}
+
+.current-config{
+  padding-top: 10px;
+    padding-left: 13px;
+    font-size: 20px;
+}
+.icon_img{
+  margin-top: 11px;
+  padding-left: 90px;
+  height: 61px;
+}
+.enable-content{
+  font-size:24px;
+  color:green
+
+}
+.button-element{
+  padding: 19px;
+}
+.btn1{
+  width: 89px;
+  height: 32px;
+}
+
+.btn2{
+  width: 89px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.btn3{
+  width: 89px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+  .btn4{
+   width: 89px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.btn5{
+    width: 89px;
+    height: 32px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+
+.btn6{
+  width: 89px;
+  height: 32px;
+  margin-left: 14px;
+  margin-top: 5px; 
+}
+.btn7{
+  width: 89px;
+  height: 32px;
+  margin-left: 226px;
+   color:orange;
+  margin-top: 5px; 
+}
+.btn8{
+    margin-top: 6px;
+    margin-left: 11px;
+    color: peru;
+    background-color: peru
+}
+
+.btn9{
+  margin-top: 6px;
+  margin-left: 11px;
+  color: peru;
+  background-color: peru;
+}
+.disable_btn{
+     width: 89px;
+    height: 32px;
+    margin-left: 55px;
+}
+
+.icon1_img{
+  
+    margin-top: 11px;
+    padding-left: 90px;
+    height: 78px;
+
+}
+  @import '/antd/dist/antd.css';
+  .card-container > .ant-tabs-card > .ant-tabs-content {
+    height: 120px;
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+  }

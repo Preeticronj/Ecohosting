@@ -20,30 +20,56 @@ class MenuBar extends React.Component {
     render() {
         return (
             <div className="MenuBar">
-                <div className="home">
-                    <span>Home</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
-                <div className="hosting">
-                    <span>Hosting</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
-                <div className="domain">
-                    <span>Domains</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
-                <div className="pages">
-                    <span>Pages</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
-                <div className="blog">
-                    <span>Blog</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
-                <div className="contact">
-                    <span>contact</span>
-                    <i class='fas fa-caret-down'></i>
-                </div>
+                <div class="dropdown">
+               <button class="dropbtn">Home<i class='fas fa-caret-down'></i></button>
+     {/* <i class='fas fa-caret-down'></i> */}
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+           </div>
+               
+                <div class="dropdown">
+               <button class="dropbtn">Hosting<i class='fas fa-caret-down'></i></button>
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+           </div>
+           <div class="dropdown">
+               <button class="dropbtn">Domains<i class='fas fa-caret-down'></i></button>
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              </div>
+           </div>
+           <div class="dropdown">
+               <button class="dropbtn">pages<i class='fas fa-caret-down'></i></button>
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+           </div>
+           <div class="dropdown">
+               <button class="dropbtn">Blog<i class='fas fa-caret-down'></i></button>
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+           </div>
+           <div class="dropdown">
+               <button class="dropbtn">pages<i class='fas fa-caret-down'></i></button>
+                <div class="dropdown-content">
+               <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+           </div>
                 <div className="client">
                     <span>ClientArea</span>
                 </div>

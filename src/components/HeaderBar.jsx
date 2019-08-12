@@ -14,7 +14,7 @@ class HeaderBar extends React.Component {
     }
     render() {
         return (
-            <div className="headerbar">
+            <div className="headerbar" style={{backgroundColor:'white'}}>
                 <div className="left-headerbar">
                 <div className="image">
                     <img className="icon" src={TreeImage} alt="images_christ.jpg" ></img>
