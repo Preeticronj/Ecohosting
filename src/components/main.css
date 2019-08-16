@@ -92,6 +92,24 @@
   transform: translate(-8%, -50%);
   box-shadow: 2px 1px 8px 0 #000;
 }
+
+ .box1 {
+  
+    position: absolute;
+    background-color: limegreen;
+    padding: 60px 20px;
+    display: table;
+    width: 80%;
+    /* left: 3%; */
+    top: 50%;
+    /* height: 55px; */
+    transform: translate(-8%, -50%);
+    box-shadow: 2px 1px 8px 0 #000;
+
+
+ }
+
+
 .dot1 {
   position: absolute;
   height: 66px;
@@ -143,7 +161,7 @@
 .sub-container {
   background-color: #46464f;
   height: 100px;
-  width: 1365px;
+  width: 1349px;
   position: relative;
 }
 
@@ -258,6 +276,7 @@ input[type="text3"] {
   font-size: large;
   color: white;
   font-weight: 600;
+  text-align: center;
 }
 .left-footer {
   padding-left: 41px;
@@ -265,7 +284,7 @@ input[type="text3"] {
 }
 .bodyImage {
   height: 650px;
-  width: 1365px;
+  width: 1349px;
   position: relative;
 }
 
@@ -441,9 +460,38 @@ input[type="text3"] {
   font-size: 18px;
 }
 
+
+  
+  .box {
+    background-color: white;
+    width: 435px;
+    /* border: 5px solid; */
+    padding: 15px;
+    /* margin: 20px; */
+    height: 314px;
+    display: flex;
+}
+ 
+
+
+
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+  margin: 0 5px;
+  display: inline-block;
+  border-top: 8px solid blue;
+  border-bottom: 8px solid blue;
+  content: '';
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+  opacity: 1;
+  background-color: blue
+}
+
 @media only screen and (max-width: 1024px) {
   .sub-container {
-    width: 1365px;
+    width: 1349px;
   }
 
   .client {
@@ -631,6 +679,16 @@ input[type="text3"] {
   flex-flow: column;
   height: 796px;
 } */
+
+.box{
+  background-color: white;
+  width: 449px;
+  /* border: 5px solid; */
+  padding: 15px;
+  /* margin: 20px; */
+  height: 331px;
+  display: flex;
+ }
 
 @media only screen and (min-width: 375px) and (max-width: 425px) {
   .dot1 {

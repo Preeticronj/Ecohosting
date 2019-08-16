@@ -52,9 +52,9 @@ class ServiceCenter extends React.Component {
         const input = document.getElementById('divToPrint');
         html2canvas(input)
           .then((canvas) => {
-            const imgData = canvas.toDataURL('image/png');
-            const pdf = new jsPDF();
-            pdf.addImage(imgData, 'JPEG', 0, 0);
+            const imgData = canvas.toDataURL('image/png',1.0);
+            const pdf = new jsPDF("l", "mm", "a4");
+            pdf.addImage(imgData, 'JPEG',10, 10, 280, 150);
             // pdf.output('dataurlnewwindow');
             pdf.save("download.pdf");
           })
@@ -72,14 +72,13 @@ class ServiceCenter extends React.Component {
                 <FooterBar /> */}
                  <div className="mb5">
         <button onClick={this.printDocument}>download</button>
-      </div>
-      <div id="divToPrint" className="mt4" >
+           </div>
+           <div id="divToPrint" className="mt4" >
                 <Service service={this.state.serviceBulletin}
                 information={this.state.Information}
                 Images={this.state.Images}
                 Footer={this.state.Footer}
-                />
-                
+                />  
             </div>
             </div>
         )

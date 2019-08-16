@@ -28,11 +28,13 @@ class DataEncrypt extends React.Component {
         <i
           class="fas fa-arrow-left"
           style={{ fontSize: "48px", color: "peru", paddingLeft: "24px" }}
+          onClick={this.props.onClick}
         />
         <br />
         <i
           class="fas fa-arrow-right"
           style={{ fontSize: "48px", color: "grey", paddingLeft: "24px" }}
+          onClick={this.props.onClick}
         />
         <div className="list-box" style={this.props.style1}>
           <ul>

@@ -1,4 +1,5 @@
 import React from 'react'
+import './main.css'
 import WindImage from '../components/Images/wind1.jpg'
 class MainBody extends React.Component {
     constructor() {
@@ -16,7 +17,7 @@ class MainBody extends React.Component {
                         {/* <h1>Reseller Hosting</h1> */}
                         <div className="box1">
                             <p className="reseller">Reseller Hosting</p>
-                            <p style={{ color: 'white',width:'175px' }}>Lorem ipsum dolor sit amet consectetuer adipiscing elit</p>
+                            <p style={{ color: 'white',width:'449px' }}>Lorem ipsum dolor sit amet consectetuer adipiscing elit</p>
                             <div style={{ display: 'flex' }}>
                                 <i class='fa fa-check-circle'><span style={{ color: 'white', paddingLeft: '10px' }}>Lorem ipsum dolor sit amet </span></i>
                                 <i class='fa fa-check-circle'><span style={{ color: 'white', paddingLeft: '10px' }}>Lorem ipsum dolor sit amet </span></i>
