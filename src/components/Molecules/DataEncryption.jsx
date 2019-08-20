@@ -2,7 +2,6 @@ import React from 'react'
 import DataEncrypt from '../Atoms/DataEncrypt'
 import DataEncrypt1 from '../Atoms/DataEncrypt1'
 import './Molecules.css'
-//import React, {PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import ReactSwap from 'react-swap';
 let BrainImage = require('../Images/brainimage1.jpg')
@@ -13,55 +12,55 @@ let ExploreImage = require('../Images/explore.png')
 class DataEncryption extends React.Component {
   constructor() {
     super()
-      
-    this.state={
-      pos:0,
-      arr:[{
-          image:BrainImage,
-          heading:'Business Issuse Understanding',
-          content1:'Business Objective',
-          content2:'information Needed',
-          content3: 'Types of Analysis',
-          content4:  'Scope of Work',
-          content5: 'Deliverables',
-          
-          
-      },{
 
-         image:SearchImage,
-         heading:'Data Understanding',
-         content1:' Initial Data Collection' ,
-         content2: 'Data Requirement',
-          content3: 'Types of Analysis' ,
-           content4: 'Data Availability',
-          content5:'Data exploration and characteristics'
-       
+    this.state = {
+      pos: 0,
+      arr: [{
+        image: BrainImage,
+        heading: 'Business Issuse Understanding',
+        content1: 'Business Objective',
+        content2: 'information Needed',
+        content3: 'Types of Analysis',
+        content4: 'Scope of Work',
+        content5: 'Deliverables',
+
+
+      }, {
+
+        image: SearchImage,
+        heading: 'Data Understanding',
+        content1: ' Initial Data Collection',
+        content2: 'Data Requirement',
+        content3: 'Types of Analysis',
+        content4: 'Data Availability',
+        content5: 'Data exploration and characteristics'
+
 
       },
       {
-       image:SettingImage,
-       heading:'Data Preparation',
-       content1:'cleanse',
-       content2:'Format',
-       content3:'Blend',
-       content4:'Sample',
-       content5:'Gather Data From Multiple Sources'
+        image: SettingImage,
+        heading: 'Data Preparation',
+        content1: 'cleanse',
+        content2: 'Format',
+        content3: 'Blend',
+        content4: 'Sample',
+        content5: 'Gather Data From Multiple Sources'
       },
       {
-         image:ExploreImage,
-         heading:'Exploratory Analysis/Modeling',
-         content1:'Develop Methodology',
-         content2:'Determine Important Variables',
-         content3:'Builld Model',
-         content4:'Asses Model'
+        image: ExploreImage,
+        heading: 'Exploratory Analysis/Modeling',
+        content1: 'Develop Methodology',
+        content2: 'Determine Important Variables',
+        content3: 'Builld Model',
+        content4: 'Asses Model'
 
       }
-    ]
+      ]
     }
   }
 
 
-  
+
   render() {
     return (
       <div>
@@ -127,7 +126,7 @@ class DataEncryption extends React.Component {
           />
         
         </div> */}
-        <DataEncrypt1 arr={this.state.arr}/>
+        <DataEncrypt1 arr={this.state.arr} />
       </div>
     )
   }
